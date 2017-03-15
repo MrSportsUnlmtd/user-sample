@@ -1,6 +1,46 @@
 /* Your Awesome Styling*/
 
 
+/*bio and resume*/
+.bio #bio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bio #bio section{
+    margin: 0 10px;
+    width: 50%;
+}
+
+.bio section: nth-child(1) {
+    width: 400px;
+}
+
+/*resume*/
+.bio #resume{
+    background: orange;
+    display: flex;
+    flex-flow: wrap row;
+}
+
+
+.bio #resume section{
+    float: 1 25%;
+}
+
+/*form*/
+.contact{
+    background: green;
+}
+label,
+input{
+    display: block;
+    margin: 1em;
+}
+
+input[type="submit"] {
+    border: 0;
+}
 
 
 /* Mobile: 320px = 20em */
